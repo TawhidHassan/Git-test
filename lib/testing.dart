@@ -10,6 +10,8 @@ class Testing extends StatefulWidget {
 class _TestingState extends State<Testing> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(),
+    );
   }
 }
